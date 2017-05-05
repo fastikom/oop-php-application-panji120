@@ -1,0 +1,53 @@
+.caption{
+	margin-top:10px;
+	padding-top:10px;
+}
+.caption label{
+	font-weight:bold;
+}
+input[type="text"]:focus{
+	border:1px solid #06c;
+}
+input[type="text"]:hover, select:hover, textarea:hover, input[type="file"]:hover, input[type="submit"]:hover{
+	border:1px solid #999;
+}
+#form-input-mhs img{
+	border:5px solid #ddd;
+	opacity:0.7;
+}
+#form-input-mhs img:hover{
+	opacity:1;
+	border:5px solid #999;
+}
+fieldset{
+	background:#f9f9f9;
+}
+table td{
+	padding:5px 10px;
+}
+
+#ganti-foto-nav{
+	position:absolute;
+	cursor:pointer;
+	text-decoration:underline;
+	font-size:12px;
+	left:0;
+	z-index:10;
+	color:#09f;
+	background:#f7f7f7;
+	border-top:1px solid #dfdfdf;
+	border-left:1px solid #dfdfdf;
+	padding:2px;
+	visibility:hidden;
+}
+
+#source-image{
+	width:auto;
+	height:auto;
+	position:relative;
+}
+
+#source-image:hover > #ganti-foto-nav{
+	visibility:visible;
+}
+

@@ -1,0 +1,130 @@
+
+html *{
+	margin:0px;
+	padding:0px;
+}
+
+fieldset{
+	padding:10px;
+}
+input, a, select{
+	outline:none;
+}
+input[type="text"], select, textarea, input[type="file"]{
+	border:1px solid #ddd;
+	padding:5px 10px;
+}
+/* Class - Class */
+.container{
+	margin:0 auto;
+}
+.tombol1{
+	border:1px solid #06f;
+	padding:5px 10px;
+	background-image:-webkit-linear-gradient(#06f, #06a);
+	cursor:pointer;
+	font-weight:bold;
+	color:#f7f7f7;
+}
+.tombol2{
+	border:1px solid #ddd;
+	padding:5px 10px;
+	background-image:-webkit-linear-gradient(#f7f7f7, #ddd);
+	text-decoration:none;
+	cursor:pointer;
+	font-weight:bold;
+}
+.tombol1, .tombol2{
+	border-radius:2px 2px;
+}
+.sukses{
+	border:1px solid #090;
+	padding:5px 10px;
+	background-color:#095;
+	color:#003;
+}
+.error{
+	border:1px solid #ef;
+	background-color:#F69;
+	padding:5px 10px;
+}
+/* ID - ID */
+#header{
+	border:1px solid #06c;
+	border-top-width:0px !important;
+	height:135px;
+	position:relative;
+}
+#header, #menu{
+	width:900px;
+}
+#header #logo{
+	float:left;
+}
+#header #menu{
+	clear:both;
+	display:block;
+	float:left;
+	border-top:1px solid #06c;
+	background-image: -webkit-linear-gradient(#4580ED, #06c);
+	background-image: -khtml-linear-gradient(#4580ED, #06c);
+	background-image: -o-linear-gradient(#4580ED, #06c);
+	background-image: -moz-linear-gradient(#4580ED, #06c);
+	background-color: #06c;
+}
+#header #menu ul{
+	list-style:none;
+}
+ul.menu-farent li{
+	float:left;
+	display:block;
+	padding:0px 20px;
+	padding:5px 8px;
+	border-right:1px solid #06c;
+	text-align:center;
+}
+#menu ul li ul{
+	display:none;
+	float:left;
+	position:absolute;
+	top:100%;
+	left:1;
+	z-index:100;
+}
+#menu ul li:hover > ul.child{
+	display:block;
+}
+#menu ul.child{
+	background:#06c;
+}
+#menu ul.child li{
+	float:left;
+	display:block;
+	clear:left;
+}
+#menu ul.menu-farent li a{
+	padding:0px 20px;
+}
+#menu ul li a{
+	text-decoration:none;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12px;
+	color:#333;
+}
+#menu ul li a:hover{
+	color:#f7f7f7;
+}
+
+#content {
+	width:880px;
+	position:relative;
+	border-right:1px solid #06c;
+	border-left:1px solid #06c;
+	padding:10px;
+}
+#footer{
+	border:1px solid #06c;
+	width:880px;
+	padding:10px;
+	height:60px;
+}
